@@ -2,7 +2,7 @@ require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
 const path = require("path");
-const connectDB = require("D:/expensetracker/backend/config/db"); // Assuming this path is correct relative to server.js
+const connectDB = require("./config/db");
 const app = express();
 const authRoutes = require("./routes/authRoutes");
 const incomeRoutes = require("./routes/incomeRoutes");
